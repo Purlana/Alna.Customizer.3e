@@ -4026,7 +4026,7 @@
 					<attribute id="Center" type="fvec3" value="0 1.672096 -0.01227587" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="f8628db6-008a-4e2a-bddd-f1d1c153ac0e" />
+					<attribute id="ID" type="FixedString" value="23bebb32-f6db-4b35-acb6-2205fa712537" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="MaterialType" type="uint8" value="0" />

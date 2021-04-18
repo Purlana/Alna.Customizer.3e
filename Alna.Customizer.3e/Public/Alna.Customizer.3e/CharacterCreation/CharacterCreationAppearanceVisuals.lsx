@@ -24,7 +24,7 @@
                     <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
                     <attribute id="SlotName" type="FixedString" value="Head"/>
                     <attribute id="UUID" type="guid" value="d18c800d-65d6-4bbe-9b77-579cbf82e22e"/>
-                    <attribute id="VisualResource" type="guid" value="derp"/>
+                    <attribute id="VisualResource" type="guid" value="23bebb32-f6db-4b35-acb6-2205fa712537"/>
                 </node>
                 <!-- ...................................................................... -->
                 <!-- ELF - 6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a -->
