@@ -4078,7 +4078,7 @@
                         <node id="Objects">
                         <!-- Right -->
                             <attribute id="LOD" type="uint8" value="0" />
-                            <attribute id="MaterialID" type="FixedString" value="808ae9d3-bf89-b507-4f94-14cfb7c489c0" />
+                            <attribute id="MaterialID" type="FixedString" value="8a705020-39fb-376e-1afe-39303e036a2c" />
                             <attribute id="ObjectID" type="FixedString" value="HEL_F_NKD_Head_B.HEL_F_NKD_Head_B_Eyes_Mesh.2" />
                             <attribute id="Physics" type="FixedString" value="" />
                             <attribute id="Slot" type="FixedString" value="" />
