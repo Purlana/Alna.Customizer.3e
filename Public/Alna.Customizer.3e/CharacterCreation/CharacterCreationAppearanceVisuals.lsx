@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="67"/>
+    <region id="CharacterCreationAppearanceVisuals">
+        <node id="root">
+            <children>
+                <!-- ...................................................................... -->
+                <!-- ELF COMPENDIUM OPTIONS - 6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a -->
+                <!-- ...................................................................... -->
+                <!-- Heads -->
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value=""/>
+                    <attribute id="VisualResource" type="guid" value=""/>
+                </node>
+                <!-- ...................................................................... -->
+                <!-- DROW COMPENDIUM OPTIONS - 4f5d1434-5175-4fa9-b7dc-ab24fba37929 -->
+                <!-- ...................................................................... -->
+                <!-- Heads -->
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="4f5d1434-5175-4fa9-b7dc-ab24fba37929"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value=""/>
+                    <attribute id="VisualResource" type="guid" value=""/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
