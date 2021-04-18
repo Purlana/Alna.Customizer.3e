@@ -3982,7 +3982,97 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="bb050fc2-a8c8-530b-38aa-77b651c4ccd9" />
+							<attribute id="MaterialID" type="FixedString" value="8a705020-39fb-376e-1afe-39303e036a2c" />
+							<attribute id="ObjectID" type="FixedString" value="HEL_F_NKD_Head_B.HEL_F_NKD_Head_B_Eyes_Mesh.2" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="ecdc74ed-68f1-d4b4-2aa2-1fe314b040f3" />
+							<attribute id="ObjectID" type="FixedString" value="HEL_F_NKD_Head_B.HEL_F_NKD_Head_B_Ears_Mesh.3" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="873e5acb-1bc5-28df-7fc9-c9e25cf8bb84" />
+							<attribute id="ObjectID" type="FixedString" value="HEL_F_NKD_Head_B.HEL_F_NKD_Head_B_Tearline_Mesh.4" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="b09f1893-d49d-483e-2dc7-0a989741aa9e" />
+							<attribute id="ObjectID" type="FixedString" value="HEL_F_NKD_Head_B.HEL_F_NKD_Head_B_Eyelashes_Mesh.5" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="b09f1893-d49d-483e-2dc7-0a989741aa9e" />
+							<attribute id="ObjectID" type="FixedString" value="HEL_F_NKD_Head_B.HEL_F_NKD_Head_B_Eyeshadow_Mesh.6" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+					</children>
+				</node>
+								<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="26b22e52-2939-874e-8767-d62a8e7a73e6" />
+					<attribute id="BoundsMax" type="fvec3" value="0.1260357 1.826153 0.09458754" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1260357 1.51804 -0.1191393" />
+					<attribute id="Center" type="fvec3" value="0 1.672096 -0.01227587" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="f8628db6-008a-4e2a-bddd-f1d1c153ac0e" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="HUM_HEL_F_NKD_Head_B2" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="0.2259163" />
+					<attribute id="SkeletonResource" type="FixedString" value="e4c2dba9-e17b-829e-3510-2299567eb565" />
+					<attribute id="SkeletonSlot" type="FixedString" value="1" />
+					<attribute id="Slot" type="FixedString" value="Head" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSWString" value="Generated/Public/Alna.Customizer.3e/Assets/Characters/_Anims/Humans/_Female/Resources/HEL_F_NKD_Head_B2.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Alna.Customizer.3e/Assets/Characters/_Anims/Humans/_Female/Resources/HEL_F_NKD_Head_B2.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741880" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="cb5c19f1-aa7d-a287-1219-65e5974e150f" />
+						</node>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="808188e8-6305-4627-d6e3-f2ec6cd05f0b" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="ecdc74ed-68f1-d4b4-2aa2-1fe314b040f3" />
+							<attribute id="ObjectID" type="FixedString" value="HEL_F_NKD_Head_B.HEL_F_NKD_Head_B_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="f3283bba-6025-dd5e-7a68-36fa639db970" />
+							<attribute id="ObjectID" type="FixedString" value="HEL_F_NKD_Head_B.HEL_F_NKD_Head_B_Mouth_Interior_Mesh.1" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="8a705020-39fb-376e-1afe-39303e036a2c" />
+							<attribute id="ObjectID" type="FixedString" value="HEL_F_NKD_Head_B.HEL_F_NKD_Head_B_Eyes_Mesh.2" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="808ae9d3-bf89-b507-4f94-14cfb7c489c0" />
 							<attribute id="ObjectID" type="FixedString" value="HEL_F_NKD_Head_B.HEL_F_NKD_Head_B_Eyes_Mesh.2" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />

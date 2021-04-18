@@ -17,6 +17,15 @@
                     <attribute id="UUID" type="guid" value="56a56f03-cb17-431b-95ca-46d9c2c58ef6"/>
                     <attribute id="VisualResource" type="guid" value="8ceeafaa-321f-416b-bd3b-d62885386e7e"/>
                 </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Half-Elf 1 Split Test"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="d18c800d-65d6-4bbe-9b77-579cbf82e22e"/>
+                    <attribute id="VisualResource" type="guid" value="derp"/>
+                </node>
                 <!-- ...................................................................... -->
                 <!-- ELF - 6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a -->
                 <!-- ...................................................................... -->
