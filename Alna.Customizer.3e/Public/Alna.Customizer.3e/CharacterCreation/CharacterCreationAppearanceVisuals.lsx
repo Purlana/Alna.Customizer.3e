@@ -5,7 +5,20 @@
         <node id="root">
             <children>
                 <!-- ...................................................................... -->
-                <!-- ELF COMPENDIUM OPTIONS - 6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a -->
+                <!-- HUMAN - 0eb594cb-8820-4be6-a58d-8be7a1a98fba -->
+                <!-- ...................................................................... -->
+                <!-- Heads -->
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Half-Elf 1"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="56a56f03-cb17-431b-95ca-46d9c2c58ef6"/>
+                    <attribute id="VisualResource" type="guid" value="8ceeafaa-321f-416b-bd3b-d62885386e7e"/>
+                </node>
+                <!-- ...................................................................... -->
+                <!-- ELF - 6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a -->
                 <!-- ...................................................................... -->
                 <!-- Heads -->
                 <node id="CharacterCreationAppearanceVisual">
@@ -14,22 +27,22 @@
                     <attribute id="RaceUUID" type="guid" value="6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a"/>
                     <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
                     <attribute id="SlotName" type="FixedString" value="Head"/>
-                    <attribute id="UUID" type="guid" value="6c311808-e057-4514-9310-00c4d54a5230"/>
-                    <attribute id="VisualResource" type="guid" value="8ceeafaa-321f-416b-bd3b-d62885386e7e"/>
+                    <attribute id="UUID" type="guid" value="67f031a0-5f69-4ad9-b93b-dc2470383bf3"/>
+                    <attribute id="VisualResource" type="guid" value="7a3da4ea-32f1-4d30-b20c-7043d356f6bf"/>
                 </node>
                 <!-- ...................................................................... -->
-                <!-- DROW COMPENDIUM OPTIONS - 4f5d1434-5175-4fa9-b7dc-ab24fba37929 -->
+                <!-- DROW - 4f5d1434-5175-4fa9-b7dc-ab24fba37929 -->
                 <!-- ...................................................................... -->
-                <!-- Heads 
+                <!-- Heads -->
                 <node id="CharacterCreationAppearanceVisual">
-                    <attribute id="DisplayName" type="FixedString" value="★"/>
+                    <attribute id="DisplayName" type="FixedString" value="★ Half-Elf 1"/>
                     <attribute id="Gender" type="uint8" value="1"/>
                     <attribute id="RaceUUID" type="guid" value="4f5d1434-5175-4fa9-b7dc-ab24fba37929"/>
                     <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
                     <attribute id="SlotName" type="FixedString" value="Head"/>
-                    <attribute id="UUID" type="guid" value="1dd3bd10-d18c-41f3-b1ea-2bd5e9aaf5a2"/>
-                    <attribute id="VisualResource" type="guid" value="d4f821fa-4e62-4891-afee-2eff9f64a15e"/>
-                </node>-->
+                    <attribute id="UUID" type="guid" value="1b90340a-0ade-4f78-bc9f-4f10a94c0302"/>
+                    <attribute id="VisualResource" type="guid" value="663a12fb-0542-4792-9f70-47b6a39573ab"/>
+                </node>
             </children>
         </node>
     </region>
