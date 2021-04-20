@@ -7,18 +7,182 @@
                 <!-- ...................................................................... -->
                 <!-- HUMAN - 0eb594cb-8820-4be6-a58d-8be7a1a98fba -->
                 <!-- ...................................................................... -->
-                <!-- Heads -->
-                <!--<node id="CharacterCreationAppearanceVisual">
-                    <attribute id="DisplayName" type="FixedString" value="★ Half-Elf 1"/>
+                <!-- .......... MALE HEADS .......... -->
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Head 7"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="6dfd3521-8655-486c-829f-81e864cbc810"/>
+                    <attribute id="VisualResource" type="guid" value="0075baaa-f1d3-207c-da78-8f28d2150181"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Head 7 Corpse"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="18dc892a-d4ad-4f52-b512-bc7b009efdaa"/>
+                    <attribute id="VisualResource" type="guid" value="7005e276-f59d-056d-cb07-15112d701284"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Head 8"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="79239247-4698-4ff7-a585-4d2279faefff"/>
+                    <attribute id="VisualResource" type="guid" value="7bd8480d-1e0f-cb26-a299-5e1c2386f544"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Elder 1"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="31e6f8e2-dc4a-4a80-bdc4-5a16869a4df4"/>
+                    <attribute id="VisualResource" type="guid" value="010a920b-f232-a43b-06f9-7018d40e8600"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Elder 2"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="5e0106c7-e4b5-4858-b7c4-25ac94d1e5e4"/>
+                    <attribute id="VisualResource" type="guid" value="abf2c8a6-c03b-a4f8-cd7b-1dc6ba701c10"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Abdirak"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="e0b94c9c-715a-4e32-adb7-3249939604da"/>
+                    <attribute id="VisualResource" type="guid" value="9511a3f7-11c9-8b5c-5c6e-b1ecd5bd573d"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Aradin"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="6fff44fa-bc25-479e-aa65-6ca04692b8b3"/>
+                    <attribute id="VisualResource" type="guid" value="02e44f76-39bb-576b-fb31-aae7316b7879"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Gale"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="4930081c-a5ca-42ec-893f-4679e5a57e55"/>
+                    <attribute id="VisualResource" type="guid" value="2d80863b-20d1-fd9b-3c21-c29eeae8b420"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Oscar"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="d7e065e2-1968-458b-96a8-f3256655fc76"/>
+                    <attribute id="VisualResource" type="guid" value="1c27ff03-dd9f-5b56-aa4e-4000b153909d"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Raphael"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="49eb3f3f-fc8d-4890-84ab-593201cea9ec"/>
+                    <attribute id="VisualResource" type="guid" value="925e51a1-4f87-cbac-e9f0-922ff50f7f8d"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Rath"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="04de447f-13fb-46e8-b88f-fdff0b56b752"/>
+                    <attribute id="VisualResource" type="guid" value="76fd6e37-069e-96d8-401f-5f6217d8a9ae"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Volo"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="27805e40-664d-4a2b-b6f6-4018dcbde9d8"/>
+                    <attribute id="VisualResource" type="guid" value="44e7769e-bc14-8c16-40d0-8b576ceddcb1"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Wyll"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="15619368-6f9a-49fc-a9d8-02deb55adba9"/>
+                    <attribute id="VisualResource" type="guid" value="82b8a882-b641-a9ac-fb4a-b1d2c91acf37"/>
+                </node>
+                <!-- ......... FEMALE HEADS ......... -->
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Head 9"/>
                     <attribute id="Gender" type="uint8" value="1"/>
                     <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
                     <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
                     <attribute id="SlotName" type="FixedString" value="Head"/>
-                    <attribute id="UUID" type="guid" value="56a56f03-cb17-431b-95ca-46d9c2c58ef6"/>
-                    <attribute id="VisualResource" type="guid" value="8ceeafaa-321f-416b-bd3b-d62885386e7e"/>
-                </node>-->
+                    <attribute id="UUID" type="guid" value="fbf18210-856d-4b63-a32a-839f3b16c0af"/>
+                    <attribute id="VisualResource" type="guid" value="b140edb7-b85c-f680-8ccc-b087aa75b18f"/>
+                </node>
                 <node id="CharacterCreationAppearanceVisual">
-                    <attribute id="DisplayName" type="FixedString" value="★ Half-Elf 1"/>
+                    <attribute id="DisplayName" type="FixedString" value="★ Elder 1"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="3877d2e9-35c5-4ef9-8968-0d6387ec1823"/>
+                    <attribute id="VisualResource" type="guid" value="52b4e724-b19a-29ac-3773-902ff77c65c1"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Mayrina"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="a53fa3df-8c9f-4bc2-a762-a520f3266dca"/>
+                    <attribute id="VisualResource" type="guid" value="2ef6a7fc-7ef5-2031-804c-f4c154ce1824"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Mizora"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="5e8edd6e-f1e9-4bb0-bb3a-1d9d8866ae59"/>
+                    <attribute id="VisualResource" type="guid" value="28456903-a9e2-1702-2c15-07533f582ffe"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Nightsong"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="fac0d0cd-d333-42a3-899c-e846388ac845"/>
+                    <attribute id="VisualResource" type="guid" value="af78f43e-94e7-61f0-897e-89f3bb6da471"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Unfinished"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="e0441096-7945-43c0-bf98-346a3a799972"/>
+                    <attribute id="VisualResource" type="guid" value="70e344e8-bb2f-44cc-a313-86062d788e9e"/>
+                </node>
+                <!-- .......... COMPENDIUM .......... -->
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ CC Half-Elf 1"/>
                     <attribute id="Gender" type="uint8" value="1"/>
                     <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
                     <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
@@ -29,9 +193,164 @@
                 <!-- ...................................................................... -->
                 <!-- ELF - 6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a -->
                 <!-- ...................................................................... -->
-                <!-- Heads -->
+                <!-- .......... MALE HEADS .......... -->
                 <node id="CharacterCreationAppearanceVisual">
-                    <attribute id="DisplayName" type="FixedString" value="★ Half-Elf 1"/>
+                    <attribute id="DisplayName" type="FixedString" value="★ Head 5 Bloody"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="765922fa-c9ec-4d32-b0cb-9d0e8608be75"/>
+                    <attribute id="VisualResource" type="guid" value="f265913f-90cb-863a-f3e0-fcab43c1f038"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Astarion"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="8c72a4a0-0a02-4d8e-88b4-39b8ec71c9e2"/>
+                    <attribute id="VisualResource" type="guid" value="70117d52-a1d0-a754-dd2a-14768d8519c2"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Cazador"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="3a96c150-c8bc-46c7-8718-5008dfa63344"/>
+                    <attribute id="VisualResource" type="guid" value="4ab6332c-871e-5a41-66bd-17c282c765f6"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Unfinished"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="0c015fe5-9e2c-4c63-9f9d-e8a72b7e58a7"/>
+                    <attribute id="VisualResource" type="guid" value="29825e7d-3d1e-a549-a201-5cd12bfd02ac"/>
+                </node>
+                <!-- ......... FEMALE HEADS ......... -->
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Head 3 Gouged"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="9b913088-8412-4d70-8888-4838d4623efb"/>
+                    <attribute id="VisualResource" type="guid" value="9c29b075-0f4f-f3dc-b005-c53a01c898a1"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Head 6"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="508aea8f-1b62-474b-b74e-369457ffcc14"/>
+                    <attribute id="VisualResource" type="guid" value="10f2bd3d-812e-e050-b6e6-5a00ecc8f7e3"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Head 7"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="3013c99d-439c-454a-a1ec-c9f003a01edc"/>
+                    <attribute id="VisualResource" type="guid" value="e0bedb85-c72e-11ef-11c9-0c2b44503581"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Half-Elf Head 1"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="d36f40e6-39cc-40e0-82e3-2c24af106e4b"/>
+                    <attribute id="VisualResource" type="guid" value="8f3a2615-5c2b-e5ec-596e-c1b50a07f9f6"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Half-Elf Head 2"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="7e649da5-5fe7-44fe-8013-412443144bcd"/>
+                    <attribute id="VisualResource" type="guid" value="89909f69-a144-64a5-dddc-ef1d15b505a0"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Half-Elf Head 3"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="3a9bea34-f56f-4a66-82e4-9b029b4d8f66"/>
+                    <attribute id="VisualResource" type="guid" value="03478e3b-7a8b-df41-64b2-4ee602609cf3"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Half-Elf Head 4"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="98d47cb7-d8fb-46f5-b2d5-794a04a7836e"/>
+                    <attribute id="VisualResource" type="guid" value="882cd087-83d0-af33-6198-633cf22334f6"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Half-Elf Head 5"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="97148e13-a0d9-41d4-9487-a8aa1fdc49e6"/>
+                    <attribute id="VisualResource" type="guid" value="a0373fe8-506b-cb46-24b0-9f4c12813d8c"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Half-Elf Head 6"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="a8c45d1a-99dd-4c70-a82e-68d86879ad93"/>
+                    <attribute id="VisualResource" type="guid" value="dacd9e05-faaf-b030-5df8-d45d4975211e"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Kagha"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="d42c859e-73c9-4097-93f8-523f21976626"/>
+                    <attribute id="VisualResource" type="guid" value="80481941-ae0c-03f2-5db0-255c65c4fed4"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Minthara"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="e9946f73-996c-4667-9058-a9ea534e47b9"/>
+                    <attribute id="VisualResource" type="guid" value="d3905dd1-d1fb-d315-0c84-5f877af24354"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Shadowheart"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="251c9047-d950-4afb-8256-7902d3947f7e"/>
+                    <attribute id="VisualResource" type="guid" value="6b1b736c-3d93-26fc-4242-052e2925fa6f"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Shadowheart Alternate"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="c9367f6a-7215-4d40-8810-440f75729be4"/>
+                    <attribute id="VisualResource" type="guid" value="f4622f79-7e15-588b-a3b8-f11778faa3b7"/>
+                </node>
+                <!-- .......... COMPENDIUM .......... -->
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ CC Half-Elf 1"/>
                     <attribute id="Gender" type="uint8" value="1"/>
                     <attribute id="RaceUUID" type="guid" value="6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a"/>
                     <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
@@ -42,9 +361,164 @@
                 <!-- ...................................................................... -->
                 <!-- DROW - 4f5d1434-5175-4fa9-b7dc-ab24fba37929 -->
                 <!-- ...................................................................... -->
-                <!-- Heads -->
+                <!-- .......... MALE HEADS .......... -->
                 <node id="CharacterCreationAppearanceVisual">
-                    <attribute id="DisplayName" type="FixedString" value="★ Half-Elf 1"/>
+                    <attribute id="DisplayName" type="FixedString" value="★ Head 5 Bloody"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="4f5d1434-5175-4fa9-b7dc-ab24fba37929"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="efda994f-0e9e-490d-82ad-34856d3f1dfa"/>
+                    <attribute id="VisualResource" type="guid" value="f265913f-90cb-863a-f3e0-fcab43c1f038"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Astarion"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="4f5d1434-5175-4fa9-b7dc-ab24fba37929"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="bab1a8c9-0700-4952-81ea-09b8978d10c8"/>
+                    <attribute id="VisualResource" type="guid" value="70117d52-a1d0-a754-dd2a-14768d8519c2"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Cazador"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="4f5d1434-5175-4fa9-b7dc-ab24fba37929"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="31ec5d4f-ad55-4213-816c-d3a0f0a6bccf"/>
+                    <attribute id="VisualResource" type="guid" value="4ab6332c-871e-5a41-66bd-17c282c765f6"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Unfinished"/>
+                    <attribute id="Gender" type="uint8" value="0"/>
+                    <attribute id="RaceUUID" type="guid" value="4f5d1434-5175-4fa9-b7dc-ab24fba37929"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="112a353e-3a96-4099-8e52-67737c8e3eb9"/>
+                    <attribute id="VisualResource" type="guid" value="29825e7d-3d1e-a549-a201-5cd12bfd02ac"/>
+                </node>
+                <!-- ......... FEMALE HEADS ......... -->
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Head 3 Gouged"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="4f5d1434-5175-4fa9-b7dc-ab24fba37929"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="derp"/>
+                    <attribute id="VisualResource" type="guid" value="9c29b075-0f4f-f3dc-b005-c53a01c898a1"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Head 6"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="4f5d1434-5175-4fa9-b7dc-ab24fba37929"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="derp"/>
+                    <attribute id="VisualResource" type="guid" value="10f2bd3d-812e-e050-b6e6-5a00ecc8f7e3"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Head 7"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="4f5d1434-5175-4fa9-b7dc-ab24fba37929"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="derp"/>
+                    <attribute id="VisualResource" type="guid" value="e0bedb85-c72e-11ef-11c9-0c2b44503581"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Half-Elf Head 1"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="4f5d1434-5175-4fa9-b7dc-ab24fba37929"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="3cb190cf-5ae5-4034-970a-b87f8b607a04"/>
+                    <attribute id="VisualResource" type="guid" value="8f3a2615-5c2b-e5ec-596e-c1b50a07f9f6"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Half-Elf Head 2"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="4f5d1434-5175-4fa9-b7dc-ab24fba37929"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="4b588b2e-efab-4387-bb6f-85992029473d"/>
+                    <attribute id="VisualResource" type="guid" value="89909f69-a144-64a5-dddc-ef1d15b505a0"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Half-Elf Head 3"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="4f5d1434-5175-4fa9-b7dc-ab24fba37929"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="ebe7cf6a-808d-4f7d-9cb9-1ec5f903a38c"/>
+                    <attribute id="VisualResource" type="guid" value="03478e3b-7a8b-df41-64b2-4ee602609cf3"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Half-Elf Head 4"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="4f5d1434-5175-4fa9-b7dc-ab24fba37929"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="0938b848-d1bd-45a1-a429-f3cc5f041dc0"/>
+                    <attribute id="VisualResource" type="guid" value="882cd087-83d0-af33-6198-633cf22334f6"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Half-Elf Head 5"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="4f5d1434-5175-4fa9-b7dc-ab24fba37929"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="8440472b-4e6d-4e6f-801d-39a19d6cd103"/>
+                    <attribute id="VisualResource" type="guid" value="a0373fe8-506b-cb46-24b0-9f4c12813d8c"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Half-Elf Head 6"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="4f5d1434-5175-4fa9-b7dc-ab24fba37929"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="3cf31001-6cde-40d5-82af-e1a814dd4708"/>
+                    <attribute id="VisualResource" type="guid" value="dacd9e05-faaf-b030-5df8-d45d4975211e"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Kagha"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="4f5d1434-5175-4fa9-b7dc-ab24fba37929"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="derp"/>
+                    <attribute id="VisualResource" type="guid" value="80481941-ae0c-03f2-5db0-255c65c4fed4"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Minthara"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="4f5d1434-5175-4fa9-b7dc-ab24fba37929"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="derp"/>
+                    <attribute id="VisualResource" type="guid" value="d3905dd1-d1fb-d315-0c84-5f877af24354"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Shadowheart"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="4f5d1434-5175-4fa9-b7dc-ab24fba37929"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="derp"/>
+                    <attribute id="VisualResource" type="guid" value="6b1b736c-3d93-26fc-4242-052e2925fa6f"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ Shadowheart Alternate"/>
+                    <attribute id="Gender" type="uint8" value="1"/>
+                    <attribute id="RaceUUID" type="guid" value="4f5d1434-5175-4fa9-b7dc-ab24fba37929"/>
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="3e11fd1a-6828-4816-97aa-e7db43af89c0"/>
+                    <attribute id="VisualResource" type="guid" value="f4622f79-7e15-588b-a3b8-f11778faa3b7"/>
+                </node>
+                <!-- .......... COMPENDIUM .......... -->
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="DisplayName" type="FixedString" value="★ CC Half-Elf 1"/>
                     <attribute id="Gender" type="uint8" value="1"/>
                     <attribute id="RaceUUID" type="guid" value="4f5d1434-5175-4fa9-b7dc-ab24fba37929"/>
                     <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
