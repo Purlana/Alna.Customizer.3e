@@ -6524,7 +6524,14 @@
                         <node id="Objects">
                             <attribute id="LOD" type="uint8" value="0" />
                             <attribute id="MaterialID" type="FixedString" value="44c3666a-cf33-93d0-bb9e-5879d4bfe0da" />
-                            <attribute id="ObjectID" type="FixedString" value="HEL_F_NKD_Head_E.HEL_F_NKD_Head_E_Eyes_Mesh.2" />
+                            <attribute id="ObjectID" type="FixedString" value="HEL_F_NKD_Head_E.HEL_F_NKD_Head_E_Eyes_Mesh.Left.2" />
+                            <attribute id="Physics" type="FixedString" value="" />
+                            <attribute id="Slot" type="FixedString" value="" />
+                        </node>
+                        <node id="Objects">
+                            <attribute id="LOD" type="uint8" value="0" />
+                            <attribute id="MaterialID" type="FixedString" value="44c3666a-cf33-93d0-bb9e-5879d4bfe0da" />
+                            <attribute id="ObjectID" type="FixedString" value="HEL_F_NKD_Head_E.HEL_F_NKD_Head_E_Eyes_Mesh.Right.2" />
                             <attribute id="Physics" type="FixedString" value="" />
                             <attribute id="Slot" type="FixedString" value="" />
                         </node>
