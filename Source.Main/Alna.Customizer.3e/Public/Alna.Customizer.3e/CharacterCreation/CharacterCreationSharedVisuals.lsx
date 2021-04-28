@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="49"/>
+    <region id="CharacterCreationSharedVisuals">
+        <node id="root">
+            <children>
+                <node id="CharacterCreationSharedVisual">
+                    <attribute id="DisplayName" type="FixedString" value=" Volo"/>
+                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="UUID" type="guid" value="b0731f7a-78bd-4e70-958b-d41f5db58def"/>
+                    <attribute id="VisualResource" type="guid" value="72af7f07-4fb0-3f83-813f-43880011e60a"/>
+                </node>
+                <node id="CharacterCreationSharedVisual">
+                    <attribute id="DisplayName" type="FixedString" value=" Mizora Wings"/>
+                    <attribute id="SlotName" type="FixedString" value="Beard"/>
+                    <attribute id="UUID" type="guid" value="11ff729d-c259-4a7f-8f2d-3d15dee770ff"/>
+                    <attribute id="VisualResource" type="guid" value="58133f4d-842b-89bb-4069-f57f4b599358"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

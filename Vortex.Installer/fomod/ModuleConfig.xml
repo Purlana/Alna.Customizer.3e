@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
+  <moduleName>Customizer's Compendium 3rd Edition</moduleName>
+  <moduleImage path="Resources\Header.Main.png" />
+  <installSteps order="Explicit">
+    <installStep name="">
+      <optionalFileGroups>
+        <group name="General Information" type="SelectAll">
+          <plugins>
+            <plugin name="Warnings">
+              <description>warning description</description>
+              <typeDescriptor>
+                <type name="Required" />
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Unlocked Content">
+              <description>Unlocked Description</description>
+              <typeDescriptor>
+                <type name="Required" />
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Custom Content">
+              <description>Custom Description</description>
+              <typeDescriptor>
+                <type name="Required" />
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+        <group name="Base Install" type="SelectExactlyOne">
+          <plugins>
+            <plugin name="Customizer's Compendium 3rd Edition - v3.0.3">
+              <conditionFlags>
+                <flag name="Customizer">On</flag>
+              </conditionFlags>
+              <typeDescriptor>
+                <type name="Required" />
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+      </optionalFileGroups>
+    </installStep>
+    <installStep name="Optional Body Replacers">
+      <optionalFileGroups>
+        <group name="Humans" type="SelectAtMostOne">
+          <plugins>
+            <plugin name="Elderly">
+              <conditionFlags>
+                <flag name="Human.Elderly">On</flag>
+              </conditionFlags>
+              <typeDescriptor>
+                <type name="NotUsable" />
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Follower of Loviatar">
+              <conditionFlags>
+                <flag name="Human.Loviatar">On</flag>
+              </conditionFlags>
+              <typeDescriptor>
+                <type name="NotUsable" />
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Wyll">
+              <conditionFlags>
+                <flag name="Human.Wyll">On</flag>
+              </conditionFlags>
+              <typeDescriptor>
+                <type name="NotUsable" />
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+      </optionalFileGroups>
+    </installStep>
+  </installSteps>
+</config>
