@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
-  <moduleName>Customizer's Compendium 3rd Edition</moduleName>
+  <moduleName position="RightOfImage">Customizer's Compendium Vortex Installer</moduleName>
   <moduleImage path="Resources\Header.Main.png" />
   <requiredInstallFiles>
-    <file source="Packed\Customizer.3e\Alna.Customizer.3e.pak" destination="Packed\Customizer.3e\Alna.Customizer.3e.pak" alwaysInstall="true" />
+    <file source="Packed\Customizer.3e\Alna.Customizer.3e.pak" destination="Alna.Customizer.3e.pak" alwaysInstall="true" />
   </requiredInstallFiles>
   <installSteps order="Explicit">
     <installStep name="">
@@ -67,30 +67,30 @@ This content relies on the mod to be installed for the life time of that gamesav
     </installStep>
     <installStep name="Optional Body Replacers">
       <optionalFileGroups>
-        <group name="Humans" type="SelectAtMostOne">
+        <group name="Human Male" type="SelectAtMostOne">
           <plugins>
             <plugin name="Elderly">
               <description>1</description>
               <conditionFlags>
-                <flag name="Human.Elderly">On</flag>
+                <flag name="Human.M.Elderly">On</flag>
               </conditionFlags>
               <typeDescriptor>
                 <type name="Optional" />
               </typeDescriptor>
             </plugin>
             <plugin name="Follower of Loviatar">
-              <description>2</description>
+              <description>Disabled until fully implementation into the game.</description>
               <conditionFlags>
-                <flag name="Human.Loviatar">On</flag>
+                <flag name="Human.M.Loviatar">On</flag>
               </conditionFlags>
               <typeDescriptor>
-                <type name="Optional" />
+                <type name="NotUsable" />
               </typeDescriptor>
             </plugin>
             <plugin name="Wyll">
               <description>3</description>
               <conditionFlags>
-                <flag name="Human.Wyll">On</flag>
+                <flag name="Human.M.Wyll">On</flag>
               </conditionFlags>
               <typeDescriptor>
                 <type name="Optional" />
@@ -101,4 +101,32 @@ This content relies on the mod to be installed for the life time of that gamesav
       </optionalFileGroups>
     </installStep>
   </installSteps>
+  <conditionalFileInstalls>
+    <patterns>
+      <pattern>
+        <dependencies>
+          <flagDependency flag="Human.M.Elderly" value="On" />
+        </dependencies>
+        <files>
+          <file source="Packed\Customizer.Optional\Body.Elderly\Alna.Human.M.pak" destination="Packed\Customizer.Optional\Body.Elderly\Alna.Human.M.pak" />
+        </files>
+      </pattern>
+      <pattern>
+        <dependencies>
+          <flagDependency flag="Human.M.Loviatar" value="On" />
+        </dependencies>
+        <files>
+          <file source="Packed\Customizer.Optional\Body.Loviatar\Alna.Human.M.pak" destination="Packed\Customizer.Optional\Body.Loviatar\Alna.Human.M.pak" />
+        </files>
+      </pattern>
+      <pattern>
+        <dependencies>
+          <flagDependency flag="Human.M.Wyll" value="On" />
+        </dependencies>
+        <files>
+          <file source="Packed\Customizer.Optional\Body.Wyll\Alna.Human.M.pak" destination="Alna.Human.M.pak" />
+        </files>
+      </pattern>
+    </patterns>
+  </conditionalFileInstalls>
 </config>
