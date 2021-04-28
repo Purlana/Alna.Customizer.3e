@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
-  <moduleName position="RightOfImage">Customizer's Compendium Vortex Installer</moduleName>
+  <moduleName>Customizer's Compendium Vortex Installer</moduleName>
   <moduleImage path="Resources\Header.Main.png" />
   <requiredInstallFiles>
     <file source="Packed\Customizer.3e\Alna.Customizer.3e.pak" destination="Alna.Customizer.3e.pak" alwaysInstall="true" />
   </requiredInstallFiles>
   <installSteps order="Explicit">
-    <installStep name="">
+    <installStep name=" ">
       <optionalFileGroups>
         <group name="General Information" type="SelectAll">
           <plugins>
@@ -78,19 +78,41 @@ This content relies on the mod to be installed for the life time of that gamesav
                 <type name="Optional" />
               </typeDescriptor>
             </plugin>
-            <plugin name="Follower of Loviatar">
-              <description>Disabled until fully implementation into the game.</description>
-              <conditionFlags>
-                <flag name="Human.M.Loviatar">On</flag>
-              </conditionFlags>
-              <typeDescriptor>
-                <type name="NotUsable" />
-              </typeDescriptor>
-            </plugin>
             <plugin name="Wyll">
               <description>3</description>
               <conditionFlags>
                 <flag name="Human.M.Wyll">On</flag>
+              </conditionFlags>
+              <typeDescriptor>
+                <type name="Optional" />
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+        <group name="Human Female" type="SelectAtMostOne">
+          <plugins>
+            <plugin name="Elderly">
+              <description>1</description>
+              <conditionFlags>
+                <flag name="Human.Elderly.F">On</flag>
+              </conditionFlags>
+              <typeDescriptor>
+                <type name="Optional" />
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Nightsong">
+              <description>2</description>
+              <conditionFlags>
+                <flag name="Human.F.Nightsong">On</flag>
+              </conditionFlags>
+              <typeDescriptor>
+                <type name="Optional" />
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Injured Arm">
+              <description>3</description>
+              <conditionFlags>
+                <flag name="Human.F.Injured.Arm">On</flag>
               </conditionFlags>
               <typeDescriptor>
                 <type name="Optional" />
@@ -125,6 +147,30 @@ This content relies on the mod to be installed for the life time of that gamesav
         </dependencies>
         <files>
           <file source="Packed\Customizer.Optional\Body.Wyll\Alna.Human.M.pak" destination="Alna.Human.M.pak" />
+        </files>
+      </pattern>
+      <pattern>
+        <dependencies>
+          <flagDependency flag="Human.F.Elderly" value="On" />
+        </dependencies>
+        <files>
+          <file source="Packed\Customizer.Optional\Body.Elderly\Alna.Human.F.pak" destination="Alna.Human.F.pak" />
+        </files>
+      </pattern>
+      <pattern>
+        <dependencies>
+          <flagDependency flag="Human.F.Nightsong" value="On" />
+        </dependencies>
+        <files>
+          <file source="Packed\Customizer.Optional\Body.Nightsong\Alna.Human.F.pak" destination="Alna.Human.F.pak" />
+        </files>
+      </pattern>
+      <pattern>
+        <dependencies>
+          <flagDependency flag="Human.F.Injured.Arm" value="On" />
+        </dependencies>
+        <files>
+          <file source="Packed\Customizer.Optional\Body.Injured.Arm\Alna.Human.F.pak" destination="Alna.Human.F.pak" />
         </files>
       </pattern>
     </patterns>
